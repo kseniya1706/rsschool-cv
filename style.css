@@ -1,0 +1,187 @@
+.wrapper {
+    max-width: 1024px;
+    background-color: rgba(224, 217, 209, 1);
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgba(43, 41, 39, 1);
+    font-size: 14px;
+    line-height: 20px;
+    /* box-shadow: 0px 0px 16px -3px #000000; */
+    
+}
+
+strong {
+    font-weight: 600;
+    line-height: 2em;
+}
+
+header {
+    display: block;
+    height: 80px;
+    background-color: rgba(139, 0, 21, 1);
+    padding-left: 7%;
+    padding-top: 30px;
+    padding-right: 7%;    
+}
+
+.navbar ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar ul li a {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    text-decoration: underline;
+    align-items: center;
+    color: rgba(224, 217, 209, 1);
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.navbar ul li a:hover {
+    font-size: 2em;
+}
+
+main {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 2.2em;
+    color: rgba(139, 0, 21, 1);
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+#contacts {
+    display: flex;
+    justify-content: content;
+     
+}
+
+.photo img {
+    display: flex;
+    width: 200px;
+    margin: 0 40px;
+    border: 2px solid rgba(139, 0, 21, 1);
+}
+
+.contacts-main{
+    display: flex;
+    font-size: 1.3em;
+}
+
+.contacts-main ul li {
+    display: flex;
+    line-height: 2em;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.contacts-main ul li a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: rgba(139, 0, 21, 1);
+    margin-left: 10px;
+}
+
+.summary, .experience, .education, .english  {
+    margin: 0 40px;
+    text-align: justify;
+    
+}
+
+.summary p {
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin: 0 40px;
+    display: flex;
+    justify-content: start;
+    
+
+}
+
+.skills div {
+    margin-right: 100px;
+}
+
+.skills ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.experience th {
+    width: 100px;
+    font-weight: 600;
+    border-right: 1px solid rgba(139, 0, 21, 1);
+    padding: 10px 0 20px 5px;
+}
+
+.experience td {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.experience tr:last-child {
+    border-top: 1px solid rgba(139, 0, 21, 1);
+  }
+
+.experience a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: rgba(139, 0, 21, 1);
+    margin-left: 10px;
+}
+
+.education ol {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.education li {
+    margin-bottom: 10px;
+}
+
+.education a {
+    font-weight: normal;
+    text-decoration: underline;
+    color: rgba(139, 0, 21, 1);
+    margin-left: 10px;
+}
+
+.english p {
+    margin-bottom: 20px;
+}
+
+footer {
+    display: block;
+    height: 60px;
+    background-color: rgba(139, 0, 21, 1);
+    padding-left: 7%;
+    
+    padding-right: 7%;  
+}
+
+.contact-in-footer ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-top: 20px;
+    
+}
+
+.contact-in-footer a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    align-items: center;
+    color: rgba(224, 217, 209, 1);
+    font-weight: 400;
+}
